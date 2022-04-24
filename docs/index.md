@@ -1,17 +1,22 @@
-# Welcome to MkDocs
+# GPU configuration steps for TensorFlow 2.x
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Before your begin -
 
-## Commands
+### Hardware Prerequisites -
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+* Nvidia GPUs 
+    * List of Compatible GPUs can be seen here - [link](https://developer.nvidia.com/cuda-gpus)
 
-## Project layout
+### Software Requirements - 
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+!!!Note
+    First of all download all the softwares in the following table.
+    For detailed instructions check the next page
+
+||Softwares|Specification|Link|Requires signup|
+|-|-|-|-|-|
+|1|Nvidia GPU drivers|450.80.02 or higher|[Click me](https://www.nvidia.com/drivers)|No|
+|2|Cuda Toolkit|11.2|[Click me](https://developer.nvidia.com/cuda-toolkit-archive)|No| 
+|3|CUPTI|ships with the CUDA® Toolkit|[Click me](http://docs.nvidia.com/cuda/cupti/)|No|
+|4|cuDNN SDK| 8.1.0|[Click me](https://developer.nvidia.com/rdp/cudnn-archive)|Yes|
+
