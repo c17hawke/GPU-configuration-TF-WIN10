@@ -3,6 +3,7 @@ site_name: GPU-configuration-TF-WIN10
 # defeine TOC or order of website-
 nav:
   - Home: index.md
+  - Nvidia-Driver: page_01.md
 
 site_author: Sunny Bhaveen Chandra
 site_description: >-
@@ -62,6 +63,8 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.mark
   - pymdownx.highlight
+  - attr_list
+  - md_in_html
   
   
 plugins:
